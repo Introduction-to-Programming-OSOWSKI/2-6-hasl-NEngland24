@@ -7,4 +7,4 @@ def hasL(word):
     if numL > 1:
         return True
     else:
-        False
+        return False
