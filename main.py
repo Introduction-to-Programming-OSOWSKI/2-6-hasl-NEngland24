@@ -4,7 +4,7 @@ def hasL(word):
     for i in range(0,len(word)):
         if word[i] == "l":
             numL = numL + 1
-        if numL > 1:
+        if numL >= 1:
             return True
     else:
         return False
